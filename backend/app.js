@@ -183,9 +183,9 @@ app.get('/fetch-data/mines', (req, res) => {
 
 // twilio setup 
 
-const accountSid = 'ACf8f145176fe98cc29192b5a43437d650';
-const authToken = 'd252d8981fc4267d5e087bf6a4a4345d';
-const twilioPhoneNumber = '+1 205 891 5135';
+const accountSid = 'AccountID';
+const authToken = 'AddToken';
+const twilioPhoneNumber = '999999999';
 
 const client = twilio(accountSid, authToken);
 
